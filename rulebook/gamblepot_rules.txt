@@ -1,0 +1,20 @@
+GAMBLING POT RULES
+
+1. Game Structure
+At the start of the round, each player places a hidden bet into the pot. The
+players then guess the total amount of gold in the pot. The goal is to guess a
+number closest to the actual size, but not over! You have a chance to leave the
+game at the end of each round.
+
+2. Placing Bets
+Each round has a maximum stake which limits the amount of gold you and other
+players can put in the pot. On the first round, the maximum stake is always
+10 gold. On the next round, the maximum stake is equal to the size of the pot
+in the previous round.
+
+3. Winnings
+If your guess is higher than the size of the pot, you don't win anything and
+forfeit your bet. The player that guesses the amount closest to the pot size
+without going over receives a prize equal to their guess. The remaining gold
+is split between any other players who didn't overestimate the pot. If you 
+guess the size of the pot exactly, you win the entire pot!

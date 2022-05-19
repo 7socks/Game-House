@@ -1,0 +1,81 @@
+this is probably just going to be for notes unless i need to use it
+just the way the fish are picked it's easier to do it directly in the
+source code (probably)
+
+0-299 = NO FISH
+300-359 = common (60%)
+360-384 = uncommon (25%)
+385-394 = rare (10%)
+395-398 = ultra rare (~5%)
+399 = legendary (~1%)
+
+so actual percentages are...
+75.0% 	No fish
+15.0%	Common fish
+6.25%	Uncommon fish
+2.5%	Rare fish
+1.25%	Ultrarare fish
+0.25%	Legendary fish
+
+then the skill bonuses are...
+1	- 15 to 30 (can only catch up to uncommon, 400-15 = 485
+2	- 5 to 20 (can only catch up to ultra-rare, 400-5 = 495
+3	0
+4	+ 5 to 20
+5	+ 15 to 30
+
+base reel chances:
+90%		Common
+80%		Uncommon
+65%		Rare
+45%		Ultra-rare
+100%	Legendary (it's special)
+
+reel chance skill bonus:
+1	-8%
+2	-3%
+3	--
+4	+3%
+5	+8%
+
+list format:
+item/value
+
+Common Fish: (worth 1-50 gold)
+bottlecap/1
+oyster cracker/3
+
+Uncommon Fish: (worth 50-200 gold)
+red fortune-telling salmon/50
+goldfish/120
+
+Rare fish: (worth 200-500 gold)
+green herring/220
+
+Ultra rare fish: (worth 500-1000 gold)
+singing bass/750
+
+LEGENDARY FISH: (worth 5000 gold)
+glowing rainbow fish of prosperity/5000
+
+not going to make a .txt file for the legendary fish because there is only one
+(maybe it's even a special event)
+
+
+Use this to get a summary of average fish values for each rarity category:
+void evaluate_fish(){
+	double i = 0;
+	double c=0;for (auto& f : commonfishvalue){c+=f;i++;}
+	c = c/i; i=0;
+	double u=0;for (auto& f : uncommonfishvalue){u+=f;i++;}
+	u = u/i; i =0;
+	double r=0;for (auto& f : rarefishvalue){r+=f;i++;}
+	r = r/i; i =0;
+	double ur=0;for (auto& f : ultrararefishvalue){ur+=f;i++;}
+	ur = ur/i; i =0;
+	cout << "\nCommon:\t"<<c;
+	cout << "\nUncommon:\t"<<u;
+	cout << "\nRare:\t"<<r;
+	cout << "\nUltra-rare:\t"<<ur;
+	get_input("any");
+}

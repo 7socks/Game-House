@@ -1,0 +1,28 @@
+bottlecap/1
+oyster cracker/2
+earthworm/3
+white coral/4
+gumball/5
+salmon crayon/5
+red coral/7
+marble/8
+fish pencil/10
+mackerel pressed penny/12
+packet of white aquarium gravel/14
+anchovy/15
+packet of black aquarium gravel/16
+green seaglass/20
+brown seaglass/20
+white seaglass/20
+packet of blue aquarium gravel/24
+AA battery/25
+packet of green aquarium gravel/26
+friendship bracelet/25
+blue seaglass/30
+packet of mixed aquarium gravel/34
+snapping turtle stapler/30
+glow-in-the-dark star sticker/35
+guitar pick/40
+red seaglass/40
+brine shrimp/45
+maraschino cherry/50

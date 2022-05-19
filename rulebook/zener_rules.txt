@@ -1,0 +1,31 @@
+ZENER CARD GAME RULES
+
+1. Game Structure
+Each round consists of two parts, the dealer's turn and the players' turns.
+On the dealer's turn, the dealer draws a hidden ZENER card, and each player
+must predict the color and shape of the symbol on that card. Once you have made 
+your prediction, you are asked to place a bet. The maximum bet is 1000 gold.
+
+2. Predicting the Card
+There are 25 unique ZENER cards in the deck. The symbol on each card has a
+color (BLACK, RED, GREEN, BLUE, or YELLOW) and a shape (CIRCLE, SQUARE, CROSS,
+WAVES, or STAR). The deck is re-shuffled after each turn, so the same card can
+appear more than once in the same game.
+
+3. The Dealer's Turn
+While the dealer is distracted, you can attempt to peek at one other player's
+prediction before you place your bet! You have a chance of seeing their 
+predicted color, shape, or both. But if you get caught, you must pay a penalty
+of up to 50 gold.
+
+4. Your Turn
+On your turn, you draw the card for the other players to predict. You can win a
+bonus if you correctly predict the accuracy of the other players' answers.
+15 gold		  Incorrect color and shape
+30 gold		  Correct color or shape (but not both)
+100 gold	  Correct color AND shape
+
+5. Winnings
+You win an amount based on the accuracy of your prediction:
+2x your bet   Color or shape
+5x your bet   Both color and shape

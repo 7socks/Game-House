@@ -1,0 +1,23 @@
+FISHING HOLE RULES
+
+1. Basic Play
+The Fishing Hole is a simple game that doesn't require any skill to play.
+Simply cast your line into the "water" and see if anything bites! You can reel 
+in all kinds of prizes, and some are more rare than others. See what you can
+collect!
+
+2. Bribes
+When you hook something, you have the opportunity to throw a bribe into the
+"water". This can increase your chances of successfully reeling something in, 
+but keep in mind that rarer items require higher bribes to make a difference.
+Tip: You can enter 0 when prompted if you change your mind or don't have any
+gold to give.
+
+3. Your Basket
+You can see what items you've collected by checking your Basket at the
+Fishing Hole or Kiosk.
+
+4. Rewards Booth
+Access the rewards booth from the Kiosk to exchange your fishing items for 
+gold. Rarer items will fetch a better price...but rumor has it there are some
+items that will bring you good luck if you keep them!

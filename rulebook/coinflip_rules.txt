@@ -1,0 +1,11 @@
+COIN FLIP GAME RULES
+
+1. Game Structure
+The game consists of one simple round of guessing. Choose either HEADS or TAILS
+when prompted, and then place your bet. There is no maximum bet for Coin Flip.
+
+2. Winnings
+The calculation of winnings is fairly complicated behind the scenes, but the
+only thing you need to worry about is the number of players. When there are 
+more players at the table, the potential prize payout is higher. However, when
+multiple people correctly guess the result, the payout is sharply reduced.

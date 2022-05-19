@@ -1,0 +1,26 @@
+red fortune-telling salmon/50
+decorative aquarium hut/52
+packet of glow-in-the-dark aquarium gravel/54
+jellyfish lanyard/55
+blue fortune-telling salmon/60
+cockle shell/60
+decorative aquarium treasure-chest/62
+ugly bobblehead/65
+green-fortune-telling salmon/70
+glass eye/75
+baby shark hand puppet/80
+catfish cat toy/85
+fish finger/90
+purple fortune-telling salmon/100
+dead seaglass/110
+yellow fortune-telling salmon/115
+goldfish/120
+panino/120
+orange fortune-telling salmon/130
+starfish/135
+taiyaki/140
+hermit crab/145
+white fortune-telling salmon/150
+black fortune-telling salmon/170
+tiny teacup/175
+carp windsock/190

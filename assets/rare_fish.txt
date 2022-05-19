@@ -1,0 +1,13 @@
+origami koi/200
+copper fortune-telling salmon/200
+fake catfish/210
+flying fish kite/215
+green herring/220
+broken watch/225
+marlin corn cob holder/230
+silver fortune-telling salmon/250
+locket/280
+gold fortune-telling salmon/300
+rabbit's foot/333
+octopus marionette/380
+fireworm/400
