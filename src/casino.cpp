@@ -376,7 +376,7 @@ void app_init(){
 	amateur.init_behavior(30,3,1,0,3);
 	ace.init_behavior(70,0,5,0,4);
 	int a = 0; // keep track of all fish index
-	string fl; ifstream fishfile("assets/common_fish.txt");
+	string fl; ifstream fishfile("../assets/common_fish.txt");
 	int w = 0; while (getline(fishfile,fl)){
 		std::stringstream fl2 (fl); string seg; std::vector<string> seglist;
 		while(std::getline(fl2,seg,'/')){seglist.push_back(seg);}
@@ -386,7 +386,7 @@ void app_init(){
 		w++; a++;
 	}
 	fishfile.close();
-	ifstream fishfile2("assets/uncommon_fish.txt");
+	ifstream fishfile2("../assets/uncommon_fish.txt");
 	w = 0; while (getline(fishfile2,fl)){
 		std::stringstream fl2 (fl); string seg; std::vector<string> seglist;
 		while(std::getline(fl2,seg,'/')){seglist.push_back(seg);}
@@ -396,7 +396,7 @@ void app_init(){
 		w++; a++;
 	}
 	fishfile2.close();
-	ifstream fishfile3("assets/rare_fish.txt");
+	ifstream fishfile3("../assets/rare_fish.txt");
 	w = 0; while (getline(fishfile3,fl)){
 		std::stringstream fl2 (fl); string seg; std::vector<string> seglist;
 		while(std::getline(fl2,seg,'/')){seglist.push_back(seg);}
@@ -406,7 +406,7 @@ void app_init(){
 		w++; a++;
 	}
 	fishfile3.close();
-	ifstream fishfile4("assets/ultrarare_fish.txt");
+	ifstream fishfile4("../assets/ultrarare_fish.txt");
 	w = 0; while (getline(fishfile4,fl)){
 		std::stringstream fl2 (fl); string seg; std::vector<string> seglist;
 		while(std::getline(fl2,seg,'/')){seglist.push_back(seg);}
@@ -544,10 +544,10 @@ void fish_reward();
 
 void read_rules(int t){
 	string ruleline; string page;
-	if (t==1){page="rulebook/coinflip_rules.txt";}
-	else if (t==2){page="rulebook/gamblepot_rules.txt";}
-	else if (t==3){page="rulebook/zener_rules.txt";}
-	else if (t==4){page="rulebook/fish_rules.txt";}
+	if (t==1){page="../rulebook/coinflip_rules.txt";}
+	else if (t==2){page="../rulebook/gamblepot_rules.txt";}
+	else if (t==3){page="../rulebook/zener_rules.txt";}
+	else if (t==4){page="../rulebook/fish_rules.txt";}
 	ifstream rulepage(page);
 	cout << "\n";
 	while (getline(rulepage,ruleline)){
@@ -559,7 +559,7 @@ void read_rules(int t){
 
 void save_init(){
 	cout<<"\nSelect Player:";
-	ifstream direct("savefiles/save_directory.txt");string savename;
+	ifstream direct("../savefiles/save_directory.txt");string savename;
 	std::vector<string> savelist;
 	int w = 0; while(getline(direct,savename)){
 		cout<<"\n"<<++w<<": "<< savename;
@@ -567,7 +567,7 @@ void save_init(){
 	}
 	direct.close();
 	anum = get_input("num",1,w);
-	string savefile = "savefiles/"+savelist[anum-1]+".txt";
+	string savefile = "../savefiles/"+savelist[anum-1]+".txt";
 	fstream myfile(savefile); string dat; std::vector<string> datrec;
 	while(getline(myfile,dat)){datrec.push_back(dat);}
 	myfile.close();
@@ -591,7 +591,7 @@ void make_save(){
 	string savename;
 	if (saveflag){savename=savetitle;}
 	else{cout<<"\nPlayer Name:  "; cin >> savename;}
-	string mytitle = "savefiles/" + savename + ".txt";
+	string mytitle = "../savefiles/" + savename + ".txt";
 	ofstream savefile(mytitle); savefile.clear();
 	for (int i=0;i<pond;i++){
 		savefile << player.check_fish(i) << endl;
@@ -604,7 +604,7 @@ void make_save(){
 	savefile.close();
 	if (not saveflag){
 		std::vector<string> hover;
-		fstream direct("savefiles/save_directory.txt",ios::app);
+		fstream direct("../savefiles/save_directory.txt",ios::app);
 		direct << "\n" << savename;
 		direct.close();
 	}
