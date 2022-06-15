@@ -24,4 +24,4 @@ While you're at it, laugh at my awful attempts at humorous item names.
 Download or clone this repo to your local machine and run it in your code editor of choice.
 
 If you're curious enough to play this for yourself, be aware that the code is by no means polished and has not been fully tested for bugs. 
-That aside, it just might be amusing enough to hold your attention for ten minutes or so.
+That aside, it might be amusing enough to hold your attention for ten minutes or so.
