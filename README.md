@@ -21,7 +21,7 @@ On your own turn, you can predict the other players' guesses for additional priz
 While you're at it, laugh at my awful attempts at humorous item names.
 
 ## Set-up
-Download or clone this repo to your local machine and run it in your code editor of choice.
+Download or clone this repo to your local machine and run it in your GUI of choice.
 
 If you're curious enough to play this for yourself, be aware that the code is by no means polished and has not been fully tested for bugs. 
 That aside, it might be amusing enough to hold your attention for ten minutes or so.
